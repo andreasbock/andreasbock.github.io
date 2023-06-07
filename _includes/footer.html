@@ -1,0 +1,30 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      {%- if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> </li>
+          {%- endif %}
+          {% if site.minima.social_links.twitter -%}
+            <li> <img src="{{ site.url }}{{ site.baseurl }}/assets/images/twitter.png" alt="" align-left width="18%"
+                style="float:">
+             <a href="https://www.twitter.com/{{ site.minima.social_links.twitter }}">{{ site.minima.social_links.twitter }}</a></li>
+          {%- endif %}
+          <!--{% if site.minima.social_links.linkedin -%}
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/{{ site.minima.social_links.linkedin }}">{{ site.minima.social_links.linkedin }}</a></li>
+          {%- endif %}-->
+        </ul>
+      {%- endif %}
+      </div> 
+
+  </div>
+
+</footer>
