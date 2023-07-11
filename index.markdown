@@ -7,7 +7,7 @@ layout: home
 style="float:right;padding: 2px">
 I'm a postdoc in [Martin S. Andersen](https://www2.compute.dtu.dk/~mskan/)'s group in the [Scientific Computing Section](https://www.compute.dtu.dk/english/research/research-sections/sco) of [DTU](dtu.dk).
 I was previously at [Imperial College London](www.imperial.ac.uk
-) where I did my Ph.D. under the supervision of [Colin Cotter](https://www.imperial.ac.uk/people/colin.cotter).
+) where I received my Ph.D. under the supervision of [Colin Cotter](https://www.imperial.ac.uk/people/colin.cotter).
 
 
 Here you will find a few things about me and my research. Feel free to [get in touch](mailto:me@andreasbock.dk) if you are interested in my research!
