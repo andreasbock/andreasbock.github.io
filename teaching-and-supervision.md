@@ -15,4 +15,4 @@ layout: default
 
 ### MSc Students
 
-  * 2022: [Luigi Caglio](https://www.linkedin.com/in/gabriele--mauro/) and [Lars Kastrup Fogh](https://www.linkedin.com/in/lars-fogh/) (co-supervised by [Evangelos Katsanos](https://orbit.dtu.dk/en/persons/evangelos-katsanos), [Martin S. Andersen](https://www2.compute.dtu.dk/~mskan/) and [Luigi Caglio](https://orbit.dtu.dk/en/persons/luigi-caglio)).
+  * 2022: [Gabriele Mauro](https://www.linkedin.com/in/gabriele--mauro/) and [Lars Kastrup Fogh](https://www.linkedin.com/in/lars-fogh/) (co-supervised by [Evangelos Katsanos](https://orbit.dtu.dk/en/persons/evangelos-katsanos), [Martin S. Andersen](https://www2.compute.dtu.dk/~mskan/) and [Luigi Caglio](https://orbit.dtu.dk/en/persons/luigi-caglio)).
