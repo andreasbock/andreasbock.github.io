@@ -43,12 +43,14 @@ layout: default
 # Talks
 
 
-* 2019
-	* December: I visited my [_alma mater_](diku.dk) and spoke about _Diffeomorphic curve matching with finite elements_.
+* 2023
+	* November: I gave a talk on preconditioning at the [CMDS workshop](https://cmds.compute.dtu.dk/).
 
+* 2019
+	* December: I visited my [alma mater](diku.dk) and spoke about _Diffeomorphic curve matching with finite elements_.
 
 * 2017
-	* November: I gave an introductory talk about shape analysis at a Imperial College SIAM Student Chapter symposium.
+	* November: I gave an introductory talk on shape analysis at a Imperial College SIAM Student Chapter symposium.
 
 
 # Projects
