@@ -7,6 +7,8 @@ layout: default
 
 * 2023
 
+  * Bock, A., & Andersen, M.S. (2023). A New Matrix Truncation Method for Improving Approximate Factorisation Preconditioners. arXiv preprint [arXiv:2312.06417](https://arxiv.org/abs/2312.06417) (submitted to [Linear Algebra and its Applications](https://www.sciencedirect.com/journal/linear-algebra-and-its-applications)).
+  
   * Bock, A., & Cotter, C.J., & Kirby, R.C. (2023). Planar Curve Registration using Bayesian Inversion. arXiv preprint [arxiv:2307.04909](http://arxiv.org/abs/2307.04909) (submitted to [Computers & Mathematics with Applications](https://www.sciencedirect.com/journal/computers-and-mathematics-with-applications)).
 
   * Bock, A., & Andersen, M.S. (2023). Preconditioner Design via the Bregman Divergence. arXiv preprint [arXiv:2304.12162](https://arxiv.org/abs/2304.12162) (submitted to [SIAM Journal on Matrix Analysis and Applications](https://www.siam.org/publications/journals/siam-journal-on-matrix-analysis-and-applications-simax)).
