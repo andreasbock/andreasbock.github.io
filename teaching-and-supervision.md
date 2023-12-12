@@ -11,8 +11,9 @@ layout: default
 
 ### Ph.D. Students
 
-  * 2022-2025: [João Victor Galvão da Mata](https://www.dtu.dk/person/joao-victor-galvao-da-mata?id=189045&entity=profile) (co-supervised by [Martin S. Andersen](https://www2.compute.dtu.dk/~mskan/))
+  * 2022-2025: [João Victor Galvão da Mata](https://www.dtu.dk/person/joao-victor-galvao-da-mata?id=189045&entity=profile) (co-supervised by Martin S. Andersen)
 
 ### MSc Students
 
-  * 2022: [Gabriele Mauro](https://www.linkedin.com/in/gabriele--mauro/) and [Lars Kastrup Fogh](https://www.linkedin.com/in/lars-fogh/) (co-supervised by [Evangelos Katsanos](https://orbit.dtu.dk/en/persons/evangelos-katsanos), [Martin S. Andersen](https://www2.compute.dtu.dk/~mskan/) and [Luigi Caglio](https://orbit.dtu.dk/en/persons/luigi-caglio)).
+  * 2023: Sophie Vilter (co-supervised by Martin S. Andersen).
+  * 2022: [Gabriele Mauro](https://www.linkedin.com/in/gabriele--mauro/) and [Lars Kastrup Fogh](https://www.linkedin.com/in/lars-fogh/) (co-supervised by [Evangelos Katsanos](https://orbit.dtu.dk/en/persons/evangelos-katsanos), [Luigi Caglio](https://orbit.dtu.dk/en/persons/luigi-caglio) and Martin S. Andersen).
