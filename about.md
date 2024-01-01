@@ -13,6 +13,7 @@ layout: default
 ## Curriculum Vitae
 
 * 2022-2025: **Postdoc** in the [Scientific Computing Section](https://www.compute.dtu.dk/english/research/research-sections/sco) of [DTU](dtu.dk)
+* 2024 (Jan-Apr): **Visiting Researcher** at the [Rutherford Appleton Laboratory](https://www.ukri.org/who-we-are/stfc/locations/rutherford-appleton-laboratory/) in Oxfordshire, United Kingdom
 * 2020-2021: Associate Director (Chief Analyst), Quantitative Research, Nordea Markets
 * 2020: **Doctor of Philosophy** in Applied Mathematics, Department of Applied Mathematics and Mathematical Physics, [Imperial College London](www.imperial.ac.uk)
 * 2017-20: TA in multivariate calculus, numerical analysis, computation in Python
