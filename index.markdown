@@ -5,7 +5,7 @@ layout: home
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/me.jpg" alt="" align-right width="18%"
 style="float:right;padding: 2px">
-I'm a postdoc in [Martin S. Andersen](https://www2.compute.dtu.dk/~mskan/)'s group in the [Scientific Computing Section](https://www.compute.dtu.dk/english/research/research-sections/sco) of [DTU](dtu.dk).
+I'm a postdoc in [Martin S. Andersen](https://www2.compute.dtu.dk/~mskan/)'s group in the [Scientific Computing Section](https://www.compute.dtu.dk/english/research/research-sections/sco) of [DTU](https://www.dtu.dk/english/).
 I was previously at [Imperial College London](www.imperial.ac.uk
 ) where I received my Ph.D. under the supervision of [Colin Cotter](https://www.imperial.ac.uk/people/colin.cotter).
 
