@@ -45,6 +45,9 @@ layout: default
 # Talks
 
 
+* 2024
+	* January: I presented my work on Bregman truncations at a [Computational Mathematics and Applications Seminar](https://www.maths.ox.ac.uk/events/list/635).
+
 * 2023
 	* November: I gave a talk on preconditioning at the [CMDS workshop](https://cmds.compute.dtu.dk/).
 
