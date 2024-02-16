@@ -19,7 +19,7 @@ layout: default
 
 	* Bock, A., & Cotter, C. J. (2021). Learning landmark geodesics using the ensemble Kalman filter. Foundations of Data Science, 3(4), 701-727.
 
-    	* Bock, A., & Cotter, C.J. (2021). A note on error analysis for a nonconforming discretisation of the tri-Helmholtz equation with singular data. arXiv preprint [arXiv:2101.04181](https://arxiv.org/abs/2101.04181).
+	* Bock, A., & Cotter, C.J. (2021). A note on error analysis for a nonconforming discretisation of the tri-Helmholtz equation with singular data. arXiv preprint [arXiv:2101.04181](https://arxiv.org/abs/2101.04181).
 
 * 2020
 
