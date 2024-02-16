@@ -6,18 +6,18 @@ layout: default
 # Papers etc. <a name="papers"></a>
 
 * 2024
- 
-  	* Bock, A., & Cotter, C.J., & Kirby, R.C. (2024). Planar Curve Registration using Bayesian Inversion. Computers & Mathematics with Applications 159, 155-172.
+
+	* Bock, A., & Cotter, C.J., & Kirby, R.C. (2024). Planar Curve Registration using Bayesian Inversion. Computers & Mathematics with Applications 159, 155-172.
 
 * 2023
 
- 	 * Bock, A., & Andersen, M.S. (2023). A New Matrix Truncation Method for Improving Approximate Factorisation Preconditioners. arXiv preprint [arXiv:2312.06417](https://arxiv.org/abs/2312.06417) (submitted to [Linear Algebra and its Applications](https://www.sciencedirect.com/journal/linear-algebra-and-its-applications)).
+	* Bock, A., & Andersen, M.S. (2023). A New Matrix Truncation Method for Improving Approximate Factorisation Preconditioners. arXiv preprint [arXiv:2312.06417](https://arxiv.org/abs/2312.06417) (submitted to [Linear Algebra and its Applications](https://www.sciencedirect.com/journal/linear-algebra-and-its-applications)).
 
-  	* Bock, A., & Andersen, M.S. (2023). Preconditioner Design via the Bregman Divergence. arXiv preprint [arXiv:2304.12162](https://arxiv.org/abs/2304.12162) (submitted to [SIAM Journal on Matrix Analysis and Applications](https://www.siam.org/publications/journals/siam-journal-on-matrix-analysis-and-applications-simax)).
+	* Bock, A., & Andersen, M.S. (2023). Preconditioner Design via the Bregman Divergence. arXiv preprint [arXiv:2304.12162](https://arxiv.org/abs/2304.12162) (submitted to [SIAM Journal on Matrix Analysis and Applications](https://www.siam.org/publications/journals/siam-journal-on-matrix-analysis-and-applications-simax)).
 
 * 2021
 
-    	* Bock, A., & Cotter, C. J. (2021). Learning landmark geodesics using the ensemble Kalman filter. Foundations of Data Science, 3(4), 701-727.
+	* Bock, A., & Cotter, C. J. (2021). Learning landmark geodesics using the ensemble Kalman filter. Foundations of Data Science, 3(4), 701-727.
 
     	* Bock, A., & Cotter, C.J. (2021). A note on error analysis for a nonconforming discretisation of the tri-Helmholtz equation with singular data. arXiv preprint [arXiv:2101.04181](https://arxiv.org/abs/2101.04181).
 
