@@ -4,7 +4,14 @@ on:
   push:
     branches:
       - v4
- 
+      
+   workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual trigger'
+        required: false
+        default: 'Manual deployment'
+
 permissions:
   contents: read
   pages: write
