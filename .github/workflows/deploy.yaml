@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - v4
-
+  repository_dispatch:
+    types: [submodule_update]
   workflow_dispatch:
     inputs:
       reason:
