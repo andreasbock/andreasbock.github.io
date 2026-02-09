@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: { provider: 'google', tagId: 'XLEL8SXP93' },
     locale: "en-GB",
-    baseUrl: "andreasbock.dk",
+    baseUrl: "andreasbock.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
