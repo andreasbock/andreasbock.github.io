@@ -31,6 +31,9 @@ jobs:
           fetch-depth: 0 # Fetch all history for git info
           submodules: 'true'
           token: ${{ secrets.PAT_TOKEN }}
+      - name: Pull latest submodule content
+        run: |
+          git submodule update --remote --recursive
       - uses: actions/setup-node@v6
         with:
           node-version: 22
