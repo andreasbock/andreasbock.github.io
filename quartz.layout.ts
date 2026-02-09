@@ -1,18 +1,30 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { QuartzComponent } from "./quartz/components/types"
+
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [Component.LinksHeader()],
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      LinkedIn: "https://www.linkedin.com/in/andreas-bock",
+      GitHub: "https://github.com/andreasbock",
     },
   }),
 }
+
+export const recentPosts: QuartzComponent = 
+  Component.DesktopOnly(Component.RecentNotes({
+  title: "Recent posts",
+  limit: 3,
+  showTags: false,
+  filter: (file) => { 
+    return !!file.slug?.includes("🌍-Blog/");
+  }
+}))
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
@@ -28,19 +40,16 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
+    Component.Explorer({
+      filterFn: (node) => {
+        const omit = new Set(["news"])
+        return (node.data?.tags?.includes("explorerexclude") !== true) && (!omit.has(node.displayName.toLowerCase()))
+      },
     }),
-    Component.Explorer(),
+    recentPosts
   ],
   right: [
+    Component.Search(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
@@ -55,14 +64,19 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        const omit = new Set(["news"])
+        return (node.data?.tags?.includes("explorerexclude") !== true) && (!omit.has(node.displayName.toLowerCase()))
+      },
+    }),
+    recentPosts
   ],
-  right: [],
+  right: [
+    Component.Search(),
+    Component.Darkmode(),
+  ],
 }

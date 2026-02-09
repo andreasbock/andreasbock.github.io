@@ -1,0 +1,51 @@
+    @use "../../styles/variables.scss" as *;
+
+header {
+  display: block;
+  margin-top: 0rem;
+}
+
+#links-header {
+  font-size: 0.95rem;
+  margin: 0 0.2em 
+  /*display: flex;*/
+  /*flex-flow: row wrap;*/
+  /*justify-content: flex-start;*/
+  /*align-content: space-between;*/
+/* remove flex-box on MMW LinksHeader */
+
+  svg {
+    height: 1em;
+    margin: 0 0.3em 0 0;
+    vertical-align: middle;
+  }
+
+  a.links-header-item {
+    display: inline-block;
+    padding: 15px 30px 15px 0px;
+    box-sizing: border-box;
+    /*width: 20%;*/
+/*remove flex-box on MMW LinksHeader */
+  }  
+
+  a.links-header-item:first {
+    padding-left: 0;
+  }
+}
+
+#links-header-container {
+  hr {
+    margin: 1rem 0;
+  }
+}
+
+#links-header {
+    display: block;
+    overflow-x: auto; 
+    white-space: nowrap;
+}
+
+#links-header a.links-header-item {
+    box-sizing: border-box; 
+    width: auto; 
+}

@@ -1,3 +1,157 @@
 @use "./base.scss";
-
+@use "./variables.scss" as *;
 // put your custom CSS here!
+
+header {
+    margin-bottom: 0;
+}
+
+.backlinks > .overflow {
+    height: auto !important;
+}
+
+.page>#quartz-body .left.sidebar {
+    padding-top: 25px;
+    gap: 2.7rem;
+}
+
+footer {
+    margin: 3rem 0 0.5rem 0;
+    justify-content: space-between;
+    align-items: center;
+  
+    & ul,p {
+      gap: 0.5rem;
+    }
+
+    & p {
+        float: right;
+        margin: 0;
+    }
+  }
+
+article > ul:first-child {
+    padding-left: 0;
+
+    & li {
+         display: block; 
+    } 
+} 
+
+.search {
+    position: absolute;
+    top: 25px; 
+    right: 65px;      
+    width: 85%;
+    z-index: 1000;
+    
+}
+
+.darkmode {
+    position: absolute;
+    right: 32px;       
+    top: 30px;
+    margin: 0; 
+    z-index: 1000;   
+}
+
+.welcome {
+    display: flex;
+    gap: 20px; /* Space between the image and text */
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%; /* Adjust as needed */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: top;
+  }
+  
+  .portrait-credit {
+    font-size: 0.8rem;
+    color: #8e8888;
+    text-align: center;
+    margin-top: -15px;
+  }
+  
+  .text-container {
+    max-width: 60%; /* Adjust as needed */
+  }
+  
+  .text-container p {
+    line-height: 1.6; /* Improve readability */
+  }
+
+.recent-ul {
+    padding: 0;
+}
+
+.recent-li {
+    display: block;
+}
+
+article img {
+    background-color: white;
+}
+
+@media all and not ($mobile) {
+.page > #quartz-body .page-header{
+    margin-top: 4rem;
+}
+}
+
+@media all and ($desktop) {
+    .page > #quartz-body .page-header{
+        margin-top: 20px;
+    }
+}
+
+@media all and ($mobile) {
+    .footer {
+        display: none
+    }
+
+    .article {
+        width : 98%
+    }
+
+    .page-title {
+        width: 70%;
+    }
+
+    .search {
+        width: 7%;
+    }
+
+    .search .search-button > p {
+        display: none;
+    }
+}
+
+// Targets only the index.md page
+[data-slug="index"],
+[data-slug="📝-CV"],
+[data-slug="📂-Research"] {
+  h1:first-child {
+    display: none;
+  }
+  // 3. Hide the date, reading time, and tags metadata (ContentMeta)
+  .content-meta {
+    display: none;
+  }
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+a.tag-link[href*="explorerexclude"] {
+  display: none !important;
+}
