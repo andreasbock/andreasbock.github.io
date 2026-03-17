@@ -11,7 +11,7 @@ export default (() => {
             <a class="links-header-item" href="/📂-Research"> 📂 Research</a>  
             <a class="links-header-item" href="/🌍-Blog/"> 🌍 Blog</a>         
             <a class="links-header-item" href="/📚-Resources/"> 📚 Resources</a>
-            <a class="links-header-item" href="/🔖-Tags/"> 🔖 Tags</a>
+            <a class="links-header-item" href="/tags/"> 🔖 Tags</a>
         </div>
         <hr></hr>
       </div>

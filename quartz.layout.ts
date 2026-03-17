@@ -40,12 +40,6 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Explorer({
-      filterFn: (node) => {
-        const omit = new Set(["news"])
-        return (node.data?.tags?.includes("explorerexclude") !== true) && (!omit.has(node.displayName.toLowerCase()))
-      },
-    }),
     recentPosts
   ],
   right: [
@@ -62,17 +56,6 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        { Component: Component.Darkmode() },
-      ],
-    }),
-    Component.Explorer({
-      filterFn: (node) => {
-        const omit = new Set(["news"])
-        return (node.data?.tags?.includes("explorerexclude") !== true) && (!omit.has(node.displayName.toLowerCase()))
-      },
-    }),
     recentPosts
   ],
   right: [
